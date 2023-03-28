@@ -1,0 +1,85 @@
+.main{
+  height: 800px;
+  width: 100%;
+  background-image:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)), url(images/bv.jpeg);
+  position:fixed;
+  background-repeat:no-repeat;
+  background-size: 70% 60%;
+  background-position: center left;
+}
+.firstmenu{
+    height: 150px;
+    width: 100%;
+    background-color:pink;
+}
+.secondmenu{
+    height: 50px;
+    width: 100%;
+    background-color:lavender;
+    margin-top: -15px;
+}
+ul {
+    list-style-type: none; 
+  }
+
+a:link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+ 
+li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    padding: 10px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color:maroon;
+    padding-right: 15px;
+  }
+  .p1 {
+    font-family:'Times new Roman';
+    color:navy;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top:10px;
+  left:28px;
+  bottom:580px;
+  border-radius: 60px;
+}
+.bvtext {
+  height: 60%;
+  width: 39%;
+  background-color:rgba(0, 0, 0, 0.82);
+  position: absolute;
+  top: 230px;
+  right: 10px;
+}
+.bv{
+    font-family:'Times New Roman';
+    color:white;
+    font-size: 20px;
+    padding:10px 100px 80px 50px;
+  }
+.visit {
+    height: 40px;
+    width: 150px;
+    background-color:skyblue;
+    position: absolute;
+    top: 310px;
+    left: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding-top:5px;
+    }
+  
+ 
