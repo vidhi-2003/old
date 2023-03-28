@@ -1,0 +1,266 @@
+.HEADD{
+    color:rgb(255, 0, 38);
+    margin-left:600px;
+}
+ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    margin-left:425px;
+    
+  }
+  a:link{
+    text-decoration: none;
+  }
+  a:visited{
+    color:rgb(154, 15, 38);
+  }
+ 
+li {
+    float: left;
+    color: rgb(50, 19, 164);
+    
+  }
+  
+li a {
+    display: block;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: #d0cdcd;
+    color:purple;
+    
+  }
+.first {
+    height: 720px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:1600px 800px;
+}
+.second {
+    height: 650px;
+    width: 1200px;
+ 
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.first2 {
+    height: 450px;
+    width: 1200px;
+    background-color:lavender;
+    position: absolute;
+    top: 140px;
+    left: 160px;
+    bottom: 150px;
+    right: 120px;
+}
+.second2 {
+    height: 550px;
+    width: 1200px;
+    background-color:rgba(21, 167, 58, 0.491);
+    position: relative;
+    top: 130px;
+    left: 100px;
+    bottom: 150px;
+    right: 120px;
+    margin-bottom: 10%;
+}
+.first3 {
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: -55px;
+    margin-left: -60px;
+}
+.second3 {
+    height: 110px;
+    width: 110px;
+    border-radius: 110px;
+    position: absolute;
+    top: 120;
+    left: 0%;
+    margin-top: -90px;
+    margin-left: -20px;
+   
+}
+hr{
+    border: 1px rgb(8, 8, 8) dashed;
+}
+.twitter{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left:540px;
+    bottom:30px;
+    border-radius: 50px;
+}
+.github{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left:570px;
+    bottom:30px;
+    border-radius: 50px;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left:350px;
+    bottom:30px;
+    border-radius: 50px;
+}
+.Linkdin{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left:550px;
+    bottom:30px;
+    border-radius: 50px;
+}
+.p1 {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: xx-large;
+     padding-left: 50px;
+    
+} 
+.p2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    padding-left: 50px;
+    
+} 
+.p3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    padding-left: 50px;
+   
+} 
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    padding-left: 100px;
+}
+.p4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding-left: 100px;
+   
+} 
+h3, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+  
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    color: rgb(78, 39, 45);
+}
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    word-spacing: 30px;;
+}
+.third {
+    height: 700px;
+    width: 1200px;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-top: 7%;
+}
+.third2 {
+    height: 550px;
+    width: 1200px;
+    background-color:rgba(218, 63, 166, 0.628);
+    position: relative;
+    top: 130px;
+    left: 100px;
+    bottom: 150px;
+    right: 120px;
+    margin-top: 10%;
+}
+.fourth {
+    height: 550px;
+    width: 1200px;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    position: absolute; 
+    margin-top: 7%;
+    margin-bottom: -10%;
+}
+.fourth2 {
+    height: 550px;
+    width: 1200px;
+    background-color:rgba(200, 207, 23, 0.633);
+    position: relative;
+    top: 130px;
+    left: 100px;
+    bottom: 150px;
+    right: 120px;
+    margin-bottom: 15%;
+}
+.second4 {
+    height: 550px;
+    width: 60px;
+    background-color: lightgray;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 150px;
+    right: 120px;
+}
+.third3 {
+    height: 550px;
+    width: 60px;
+    background-color: lightgray;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 150px;
+    right: 120px;
+}
+.fourth3 {
+    height: 550px;
+    width: 60px;
+    background-color: lightgrey;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 150px;
+    right: 120px;
+}
+.p5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+.p6 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        padding-left: 80px;
+        padding-right: 50px;
+    }
+.p7 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+.p8 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        padding-left: 90px;
+        padding-right: 50px;
+}
+.p9 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-left: 90px;
+    padding-right: 50px;
+}
