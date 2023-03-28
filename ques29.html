@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<p id="Text1">Hello</p>
+<p id="Text2">World</p>
+</body>
+
+<script>
+var size=10;
+vari=0;
+var Wait=setInterval(Grow,50);
+
+function Grow()
+{
+if(size<51)
+{
+size=size+1;
+document.getElementById("Text1").style.fontSize=(size+'pt');
+document.getElementById("Text1").style.color="red";
+document.getElementById("Text2").style.visibility="hidden";
+}
+else
+{
+clearInterval(Wait);
+Wait=setInterval(Shrink,50);
+document.getElementById("Text1").style.visibility="hidden";
+document.getElementById("Text1").style.fontSize='1pt';
+document.getElementById("Text2").style.visibility="visible";
+}
+}
+function Shrink()
+{
+if(size>5)
+{
+size=size-1;
+document.getElementById("Text2").style.fontSize=(size+'pt');
+document.getElementById("Text2").style.color="blue";
+}
+else
+{
+clearInterval(Wait);
+}
+}
+</script>
+</html>

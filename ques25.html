@@ -1,0 +1,210 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: linear-gradient(to left,rgba(190, 89, 230, 0.3),rgba(89,200,100,0.3));
+            }
+           table{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: pink;
+           }
+           td{
+            text-align: center;
+            padding: 20px;
+           }
+           label{
+                color: rgb(157, 17, 47);
+                font-size: large;
+           }
+           caption{
+                color:navy;
+                font-size: large;
+                font-weight: bold;
+           }
+           .sub{
+             background-color:purple;
+             font-size: large;
+             border-radius: 20px;
+             margin: 5px 5px;
+
+             
+           }
+
+           
+        </style>
+
+    </head>
+    <body>  
+            
+            <table >
+                <caption>Registration Form</caption>
+                <form>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                
+                <tr>
+                    <td><label>User ID</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password"  ></td>
+                </tr>
+                <tr>
+                    <td><label>Confirm Password</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><input type="text"  ></td>
+                </tr>
+                <tr>
+                    <td><label>Email ID</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td><label>Conatct Number</label></td>
+                    <td><input type="text"  onchange="validate()"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" class="sub" onclick="validate()"></td>
+                </tr>
+                </form>
+            </table>
+                
+            
+            <script>
+                function validate(){
+                    var fn=document.forms[0].elements[0].value;
+                    var f=document.forms[0].elements[0];
+                    var rf=/^[a-zA-Z]{1,32}$/;
+                    var ln=document.forms[0].elements[1].value;
+                    var rl=/^[A-Za-z]{1,10}$/;
+                    var ph=document.forms[0].elements[7].value;
+                    var c=document.forms[0].elements[7];
+                    var re = /^[7-9][0-9]{9}$/;
+                    var pw=document.forms[0].elements[3].value;
+                    var rp=/^[A-Za-z]\w{7,14}$/;
+                    var cpw=document.forms[0].elements[4].value;
+
+                    var el=document.forms[0].elements[6].value;
+                    var e=document.forms[0].elements[6];
+                    var em=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                    var us=document.forms[0].elements[2].value;
+                    var  u=document.forms[0].elements[2];
+                    var ru=/^[a-zA-Z]{5}[0-9]{5}$/;
+                    var add=document.forms[0].elements[5].value;
+                    var radd=/^[a-zA-Z][0-9]$/;
+                   if(validfn(fn,f,rf)){
+                        if(validln(ln,rl)){
+
+                        }
+                        if(validuser(us,u,ru)){
+
+                        }
+                        if(validph(re,ph,c)){
+
+                        }
+                        if(validemail(el,e,em)){
+
+                        }
+                        if(validpw(pw,rp)){
+
+                        }
+                        if (validcpw(cpw,pw)){
+
+                        }
+                        if(validaddr(add,radd)){
+
+                        }
+                        
+                   }
+
+                    return false;
+                    
+                }
+                function validph(re,ph,c){
+                    if(re.test(ph))
+                    {   
+                       
+                       return true;
+                    }
+                    else{
+                        c.style.border = "red solid 3px";
+                        alert("Incorrect number");
+                        return false;
+                    }
+                }
+                function validemail(el,e,em){
+                    if(em.test(el)){
+                        
+                        return true;
+                    }
+                    else{
+                        e.innerHTML="Invalid email";
+                        alert("Invalid email");
+                        return false;
+                    }
+                }
+                function validuser(us,u,ru){
+                    if(ru.test(us)){
+                        
+                        return true;
+                    }
+                    else{
+                        u.innerHTML="Invalid uid";
+                        alert("Invalid uid");
+                        return false;
+                    }
+                }
+                function validfn(fn,f,rf){
+                    if(rf.test(fn)){
+                        return true;
+                    }
+                    else{
+                        alert("Inavlid First name");
+                    }
+                }
+                function validln(ln,rl){
+                    if(rl.test(ln)){
+                        return true;
+                    }
+                    else{
+                        alert("invalid name");
+                    }
+                }
+                function validpw(pw,rp){
+                    if(rp.test(pw)){
+                        return true;
+                    }
+                    else{
+                        alert("Inavlid password");
+                    }
+                }
+                function validcpw(cpw,pw){
+                    if(cpw==pw){
+                        return true;
+                    }
+                    else{
+                        alert("wrong password");
+                    }
+                }
+                function validaddr(add,radd){
+                    if(radd.test(add)){
+                        return true;
+                    }
+                    else{
+                        alert("Invalid address");
+                    }
+                }
+            </script>
+        
+    </body>
+</html>

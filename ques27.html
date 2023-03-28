@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>QUESTION 27</title>
+        <style>
+            body{
+                color:navy;
+                font-size: 50px;
+                font-weight: bold;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="display" >
+        </div>
+        <script>
+        function clock()
+        {
+        d = new Date();
+        hour = d.getHours();
+        cTime = d.getHours() +":"+d.getMinutes()+":"+d.getSeconds()
+        document.getElementById("display").innerHTML = cTime;
+        }
+        setInterval(clock,1000);
+</script>
+</body>
+</html>
