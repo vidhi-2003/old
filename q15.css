@@ -1,0 +1,28 @@
+body {
+    background:linear-gradient(rgba(87, 87, 213, 0.625),rgba(203, 80, 234, 0.959)), url(images/13.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family:'Times New Roman';
+  
+}
+h1 {
+        color:purple;
+        font-size:30px;
+        font-weight:bolder;
+       
+        }	
+p{
+            color:darkblue;
+            font-size:15px;
+            line-height:25px;
+            font-weight:normal;
+        }
+
+.heading{
+    font-size:20px;
+    color:rgb(86, 255, 14);
+}
+span{
+    background-color: yellow;
+    font-style:italic;
+}

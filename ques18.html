@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            q18
+        </title>
+        <style>
+            .cont{
+                background-color: pink;
+                height:800px;
+                width:1400px;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            .cont > div {
+                background-color: purple;
+                height:300px;
+                width:300px;
+                margin:20px 20px 20px 20px;
+                font-size: 50px;
+                text-align: center;
+                animation-name:anime;
+                animation-iteration-count: infinite;
+                animation-duration:3s;
+            }
+            @keyframes anime{
+                from{
+                    transform:rotate(0deg);
+                    background-color: lavender;
+                }
+                to{
+                    transform: rotate(360deg);
+                    background-color: cadetblue;
+                    translate:100px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cont">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4 </div>
+        </div>
+    </body>
+</html>

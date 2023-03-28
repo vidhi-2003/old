@@ -1,0 +1,55 @@
+body{
+    background-color: lavender;
+	border:solid purple 5px;
+	
+}
+h1{
+	font-weight:bold;
+	font-family:'fantasy';
+	color:navy;
+	font-size: 40px;
+    text-align:center;
+	text-decoration: underline;
+}
+.img1{
+	display: block;
+	margin: 50px;
+	float: left;
+	height: 400px;
+	width: 500px;
+	padding: 10px 10px 10px 8px;
+	border: dashed rgb(14, 156, 217) 10px;
+	background-color: rgb(41, 2, 160);
+	box-shadow: 10px 10px 10px rgb(17, 221, 248);
+}
+
+.text1 {
+	position:absolute;
+	font-family:'Lucida Sans';
+	color:rgb(32, 38, 231);
+	font-size:20px;
+	top:15%;
+	left:3%;
+}
+.img2{
+	display: block;
+	margin: 50px;
+	float: right;
+	height: 400px;
+	width:600px;
+	padding: 10px 10px 10px 8px;
+	border: double rgb(225, 217, 60) 10px;
+	background-color: rgb(229, 62, 190);
+	box-shadow: 10px 10px 10px rgb(247, 16, 185);
+}
+.text2 {
+	position:absolute;
+	color:rgb(210, 24, 136);
+	font-size:20px;
+	font-family:'Lucida Sans';
+	top:15%;
+	right:20%;
+}
+
+
+
